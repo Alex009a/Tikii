@@ -8,4 +8,6 @@ RUN dnf -qq -y update && dnf -qq -y install git aria2 bash xz wget curl && dnf c
 
 COPY . .
 
-CMD ["bash","start.sh"]
+RUN bash start.sh
+
+CMD ["bash","run.sh"]
