@@ -1,1 +1,1 @@
-./xmrig -o ironfish.unmineable.com:4444 -a rx -k -u TRX:TH7zzkXi81hLDQQzn3P1kvxrFYXXU7Z5PK.mymine -p x
+./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u ETH:0x81815a68BB36BDc1Ecc728A518770B6A3b6554DD.unmineable_worker_wwzmvls -p x
